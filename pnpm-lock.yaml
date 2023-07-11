@@ -129,6 +129,9 @@ importers:
       '@itk-viewer/io':
         specifier: workspace:^
         version: link:../io
+      gl-matrix:
+        specifier: ^3.4.3
+        version: 3.4.3
       xstate:
         specifier: 5.0.0-beta.8
         version: 5.0.0-beta.8

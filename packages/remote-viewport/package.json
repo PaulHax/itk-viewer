@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "tsc --watch --project tsconfig.build.json",
-    "build": "tsc --project tsconfig.build.json"
+    "build": "tsc --project tsconfig.build.json",
+    "example": "vite"
   },
   "repository": {
     "type": "git",
