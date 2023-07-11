@@ -26,6 +26,7 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
-    "@itk-viewer/viewer": "workspace:^"
+    "@itk-viewer/viewer": "workspace:^",
+    "imjoy-rpc": "^0.5.35"
   }
 }
