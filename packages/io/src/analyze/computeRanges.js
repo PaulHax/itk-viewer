@@ -4,9 +4,10 @@ import { createRangeHelper } from './createRangeHelper';
 const haveSharedArrayBuffer =
   typeof globalThis.SharedArrayBuffer === 'function';
 
-const numberOfWorkers = navigator.hardwareConcurrency
-  ? Math.min(navigator.hardwareConcurrency, 8)
-  : 4;
+const numberOfWorkers = 1;
+// navigator.hardwareConcurrency
+//   ? Math.min(navigator.hardwareConcurrency, 8)
+//   : 4;
 
 const computeRangeWorkerPool = webWorkerPromiseWorkerPool(
   numberOfWorkers,
